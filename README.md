@@ -31,3 +31,9 @@ $$u(x+h) = \frac{- k(x) \cdot [u(x) - v(x)] - Q_s(x+h) \cdot u(x)}{Q_s(x)}$$
 $$v(x+h) = \frac{k(x) \cdot [u(x) - v(x)] - Q_a(x+h) \cdot v(x)}{Q_a(x)}$$
 
 $u(x)$ , $v(x)$ , $k(x)$ , $Q_s(x)$ , $Q_a(x)$ は任意の関数をプログラム内で設定します。
+
+最終的には下記の積分を数値的に求めてグラフへプロットします。
+
+$$\int_{0}^{x} k(x) \cdot [u(x) - v(x)] dx$$
+
+## 注意事項
