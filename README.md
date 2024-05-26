@@ -20,3 +20,4 @@
 2つの下記微分方程式における数値解を計算します。
 
 $$u^{\prime}(x) = \frac{- k(x) \cdot [u(x) - v(x)] - Q_s^{\prime}(x) \cdot u(x)}{Q_s(x)}$$
+$$v^{\prime}(x) = \frac{k(x) \cdot [u(x) - v(x)] - Q_a^{\prime}(x) \cdot v(x)}{Q_a(x)}$$
