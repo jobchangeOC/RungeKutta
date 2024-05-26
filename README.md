@@ -29,3 +29,5 @@ $$v^{\prime}(x) = \frac{k(x) \cdot [u(x) - v(x)] - Q_a^{\prime}(x) \cdot v(x)}{Q
 $$u(x+h) = \frac{- k(x) \cdot [u(x) - v(x)] - Q_s(x+h) \cdot u(x)}{Q_s(x)}$$
 
 $$v(x+h) = \frac{k(x) \cdot [u(x) - v(x)] - Q_a(x+h) \cdot v(x)}{Q_a(x)}$$
+
+なお、$u(x)$，$v(x)$，$k(x)$，$Q_s(x)$，$Q_a(x)$ は任意の関数を設定できます。
