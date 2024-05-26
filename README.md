@@ -5,7 +5,7 @@
 - Visual Studio Code 1.89.1
 - Python 3.10.11 64-bit (microsoft-store)
 
-##利用ライブラリ
+## 利用ライブラリ
 - numpy
 - matplotlib
 
