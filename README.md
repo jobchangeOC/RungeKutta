@@ -2,9 +2,8 @@
 
 ## 開発環境
 Windows 11 23H2
-
-Visual Studio Code Ver:1.89.1
-
+Visual Studio Code 1.89.1
+Python 3.10.11 64-bit (microsoft-store)
 
 ##利用言語
 Python
