@@ -22,3 +22,10 @@
 $$u^{\prime}(x) = \frac{- k(x) \cdot [u(x) - v(x)] - Q_s^{\prime}(x) \cdot u(x)}{Q_s(x)}$$
 
 $$v^{\prime}(x) = \frac{k(x) \cdot [u(x) - v(x)] - Q_a^{\prime}(x) \cdot v(x)}{Q_a(x)}$$
+
+数値解を計算する都合で、微分の刻み幅$h$ごとに計算するため、  
+実際に計算するのは下記のような方程式となります。
+
+$$u(x+h) = \frac{- k(x) \cdot [u(x) - v(x)] - Q_s(x+h) \cdot u(x)}{Q_s(x)}$$
+
+$$v(x+h) = \frac{k(x) \cdot [u(x) - v(x)] - Q_a(x+h) \cdot v(x)}{Q_a(x)}$$
